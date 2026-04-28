@@ -1,0 +1,29 @@
+import javax.swing.*;
+import java.awt.*;
+
+public class CustomButtons {
+
+
+    public static void changeStyle(JButton button){
+        button.setBackground(new Color(110, 45, 147));
+        button.setForeground(Color.cyan);
+
+        button.setFont(new Font("TimesNew Roman",Font.BOLD,14));
+
+        button.setFocusPainted(false);
+        button.setBorderPainted(false);
+
+        button.setBorder(BorderFactory.createEmptyBorder(20,20,20,20));
+    }
+    public static void changeButton(JButton button){
+        button.setBackground(new Color(186, 10, 109));
+        button.setForeground(Color.cyan);
+
+        button.setFont(new Font("TimesNew Roman",Font.BOLD,14));
+
+        button.setFocusPainted(false);
+        button.setBorderPainted(false);
+
+        button.setBorder(BorderFactory.createEmptyBorder(20,20,20,20));
+    }
+}
