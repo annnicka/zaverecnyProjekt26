@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class CustomButtons {
+public class CustomThings {
 
 
     public static void changeStyle(JButton button){
@@ -26,4 +26,11 @@ public class CustomButtons {
 
         button.setBorder(BorderFactory.createEmptyBorder(20,20,20,20));
     }
+
+    public static void label(JLabel label){
+        ImageIcon logo = new ImageIcon("res/logo.png");
+        label.setIcon(logo);
+
+    }
+
 }
