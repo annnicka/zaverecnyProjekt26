@@ -14,8 +14,7 @@ public class Menu {
         this.frame.setLayout(new BorderLayout());
         this.frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.frame.setLocationRelativeTo(null); //vycentruje to na obrazovku
-
-
+        this.frame.getContentPane().setBackground(new Color(204, 153, 255));
         JLabel label = new JLabel("Welcome");
         this.frame.add(label, BorderLayout.CENTER);
 
