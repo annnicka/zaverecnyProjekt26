@@ -28,7 +28,7 @@ public class CustomThings {
     }
 
     public static void label(JLabel label){
-        ImageIcon logo = new ImageIcon("res/logo.png");
+        ImageIcon logo = new ImageIcon("res/logo2.png");
         label.setIcon(logo);
 
     }
